@@ -13,6 +13,8 @@ const commentSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "user",
     },
+    // add likers array of users ids to keep track on liker????
+    // similar to the fweet options???
     like: {
       type: Number,
       default: 0,
