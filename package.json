@@ -1,0 +1,31 @@
+{
+  "name": "fwitter-api",
+  "version": "1.0.0",
+  "description": "RESTful api using Mongo DB, Express, and Node to create Fwitter(fake-twitter style) social network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "develop": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bltarkany/fwitter-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bltarkany/fwitter-api/issues"
+  },
+  "homepage": "https://github.com/bltarkany/fwitter-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
