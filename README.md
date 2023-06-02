@@ -4,6 +4,8 @@ RESTful api using Mongo DB, Express, and Node to create fwitter(fake-twitter sty
 
 ## Description
 
+This RESTful API user twitter as an example for data structure.
+
 ## Technologies
 
 - Express
